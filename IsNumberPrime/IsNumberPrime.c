@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
     unsigned int nDividers = 0;
     printf("Input an integer positive number\r\n");
     scanf("%lu", &ulNumber);
-    printf("The number %lu has the following dividers:\r\n", ulNumber);
+    printf("The number %lu has the following divisors:\r\n", ulNumber);
     for (unsigned long i = 1; i <= ulNumber; i++)
     {
         if (ulNumber % i == 0)
